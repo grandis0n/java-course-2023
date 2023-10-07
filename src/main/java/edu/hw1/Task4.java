@@ -1,7 +1,7 @@
 package edu.hw1;
 
-public class task4 {
-    public static void main(String[] args) {
+public class Task4 {
+    private Task4() {
     }
 
     public static String fixString(String origString) {

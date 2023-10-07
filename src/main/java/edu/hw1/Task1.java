@@ -1,13 +1,14 @@
 package edu.hw1;
 
-public final class task1 {
-    public static void main(String[] args) {
+public final class Task1 {
+    private Task1() {
     }
 
+    @SuppressWarnings("MagicNumber")
     public static Integer minutesToSeconds(String time) {
-        String[] min_sec = time.split(":");
-        int minutes = Integer.parseInt(min_sec[0]);
-        int seconds = Integer.parseInt(min_sec[1]);
+        String[] minSec = time.split(":");
+        int minutes = Integer.parseInt(minSec[0]);
+        int seconds = Integer.parseInt(minSec[1]);
         if (seconds >= 60 || seconds < 0 || minutes < 0) {
             return -1;
         } else {
