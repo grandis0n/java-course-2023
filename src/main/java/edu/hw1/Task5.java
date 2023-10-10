@@ -19,7 +19,6 @@ public class Task5 {
                 sb.append(Character.getNumericValue(str.charAt(str.length() - 1)));
             }
             str = sb.toString();
-//            System.out.println(str);
             if (str.length() > 1 & isPalindrome(str)) {
                 return true;
             }
