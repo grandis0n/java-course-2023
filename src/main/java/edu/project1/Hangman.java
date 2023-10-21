@@ -52,7 +52,6 @@ public class Hangman {
             if (status == -1) {
                 break;
             }
-
             if (printWordState(wordToGuess, playerGuesses)) {
                 System.out.println("You won!");
                 break;
