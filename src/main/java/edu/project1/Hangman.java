@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 @SuppressWarnings({"RegexpSinglelineJava", "UncommentedMain"})
 public class Hangman {
-    Hangman() {
+    private Hangman() {
     }
 
     public static void main(String[] args) {
