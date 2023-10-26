@@ -7,7 +7,7 @@ public final class Task0 {
     private Task0() {
     }
 
-    private final static Logger LOGGER = LogManager.getLogger();
+    private static final Logger LOGGER = LogManager.getLogger();
 
     @SuppressWarnings("uncommentedmain")
     public static void main(String[] args) {
