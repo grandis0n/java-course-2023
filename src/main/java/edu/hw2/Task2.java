@@ -8,6 +8,11 @@ public class Task2 {
         private final int width;
         private final int height;
 
+        public Rectangle() {
+            width = 0;
+            height = 0;
+        }
+
         public Rectangle(int width, int height) {
             this.width = width;
             this.height = height;
@@ -27,8 +32,7 @@ public class Task2 {
     }
 
     public static class Square extends Rectangle {
-        public Square(int height) {
-            super(height, height);
+        public Square() {
         }
 
         @Override
